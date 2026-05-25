@@ -87,7 +87,7 @@ namespace PixelLab.UI.Forms
         private void InitializeUI()
         {
             Text = "PixelLab";
-            Size = new Size(1680, 920);
+            Size = new Size(1600, 840);
             MinimumSize = new Size(950, 600);
             StartPosition = FormStartPosition.CenterScreen;
             BackColor = BG_DEEP;

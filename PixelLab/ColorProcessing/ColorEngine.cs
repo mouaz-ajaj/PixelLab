@@ -6,14 +6,9 @@ using Emgu.CV.Structure;
 
 namespace PixelLab.ColorProcessing
 {
-    public partial class ColorEngine : IColorConverter
+    public partial class ColorEngine 
     {
-        public Bitmap ConvertTo(Bitmap sourceImage, ColorSpace targetSpace)
-        {
-            // Placeholder: Returning untouched image for now
-            return new Bitmap(sourceImage);
-        }
-
+    
         public Bitmap ModifyComponent(Bitmap sourceImage, ColorSpace space, int channelIndex, float valueAdjustment)
         {
             if (space == ColorSpace.CMYK)
